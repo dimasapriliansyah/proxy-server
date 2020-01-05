@@ -1,0 +1,27 @@
+{
+  "name": "proxy-server",
+  "version": "0.0.1",
+  "description": "Proxy Server for ON 5 Backend",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dimas Apriliansyah",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.7",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-http-proxy": "^1.6.0",
+    "express-validator": "^6.3.1",
+    "helmet": "^3.21.2",
+    "ioredis": "^4.14.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.8.4",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
